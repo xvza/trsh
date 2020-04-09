@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=utilities-terminal
+Type=Application
+Name=Music Launcher
+Comment=Launch Music Directory
+Exec=/var/http/usrs/local/bin/sound/launch.sh ${SKEL}/Music

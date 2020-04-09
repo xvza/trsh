@@ -1,0 +1,49 @@
+  live_config_reload:    true
+  dynamic_title:        true
+  scrolling:
+    auto_scroll:        true
+
+  window:
+    padding:
+      x:  20
+      y:  20
+
+  font:
+    normal:
+      family:   TerminessTTF Nerd Font Mono
+      style:    Regular
+
+    bold:
+      family:   TerminessTTF Nerd Font Mono
+      style:    Bold
+
+    italic:
+      family:   TerminessTTF Nerd Font Mono
+      style:    Italic
+
+    size:       12
+
+  colors:
+    primary:
+      background:   "0x2e3440"
+      foreground:   "0xd8dee9"
+
+    normal:
+      black:        "0x2e3440"
+      red:          "0xbf616a"
+      green:        "0xa3be8c"
+      yellow:       "0xebcb8b"
+      blue:         "0x5e81ac"
+      magenta:      "0xb48ead"
+      cyan:         "0x88c0d0"
+      white:        "0xd8dee9"
+
+    bright:
+      black:        "0x2e3440"
+      red:          "0xbf616a"
+      green:        "0xa3be8c"
+      yellow:       "0xebcb8b"
+      blue:         "0x5e81ac"
+      magenta:      "0xb48ead"
+      cyan:         "0x88c0d0"
+      white:        "0xd8dee9"

@@ -1,0 +1,10 @@
+[settings]
+last-window-width=789
+last-window-height=814
+enable-spell-checking=false
+enable-javascript=false
+close-buttons-on-tabs=false
+maximum-history-age=0
+
+[extensions]
+libadblock.so=true

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+##########################################
+declare   "path=/var/http/usrs/local/bin/"
+##########################################
+source    "${path}display/xrandr.sh"
+source    "${path}display/xset.sh"
+source    "${path}cursor/config.sh"
+source    "${path}resource/config.sh"
+##########################################
+source    "${path}backgrounds/get.sh"    &
+source    "${path}backgrounds/set.sh"    &
+##########################################
+source    "${path}color/redshift.sh"     &
+source    "${path}panel/launch.sh"       &
+source    "${path}window/picom.sh"       &
+source    "${path}hotkey/sxhkd.sh"       &
+source    "${path}clipboard/launch.sh"   &
+##########################################
