@@ -10,7 +10,7 @@ declare   "src=${TMPDIR}/${helper}/"
 declare   "url=https://aur.archlinux.org/${helper}"
 #############################################################
 source    "net1.sh"  "${src}"  "${url}"
-cd                   "${src}"
 #############################################################
+eval      "cd ${src}"
 eval      "makepkg -si --noconfirm --needed"
 #############################################################
