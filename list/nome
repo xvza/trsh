@@ -27,6 +27,7 @@ gnome-screenshot
 gnome-sound-recorder
 gnome-system-log
 gnome-system-monitor
+gnome-terminal
 gnome-todo
 gnome-tweaks
 gnome-usage
@@ -42,4 +43,3 @@ sequeler
 shortwave
 simple-scan
 sysprof
-tilix
