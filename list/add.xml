@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <packages>
+    <package id="ccleaner" />
+    <package id="choco-cleaner" />
+    <package id="etcher" />
+    <package id="microsoft-edge" />
+    <package id="peazip" />
+    <package id="quicklook" />
+  </packages>
