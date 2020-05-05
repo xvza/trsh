@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=utilities-terminal
+Type=Application
+Name=Wallpaper Downloader
+Comment=Download Wallpaper
+Exec=background.sh

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=utilities-terminal
+Type=Application
+Name=Gpaste
+Comment=Set Gpaste Daemon
+Exec=gpaste.sh

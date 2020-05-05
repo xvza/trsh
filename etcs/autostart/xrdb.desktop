@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=utilities-terminal
+Type=Application
+Name=Xrdb
+Comment=Set Xrdb
+Exec=xrdb.sh

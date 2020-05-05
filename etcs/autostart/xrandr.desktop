@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=utilities-terminal
+Type=Application
+Name=Xrandr
+Comment=Set Xrandr
+Exec=source /var/http/srcs/start.sh;/var/http/srcs/autostart.d/xrandr.sh
