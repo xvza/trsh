@@ -1,0 +1,92 @@
+set                $mod    Mod1
+set                $term   tilix
+set                $menu   rofi
+
+output             * bg /etc/skel/Picture/_.jpg fill
+output             HDMI-A-1 resolution 1920x1080
+
+input * {
+  xkb_layout       fr
+}
+
+floating_modifier  $mod normal
+
+bindsym            $mod+Return exec $term
+bindsym            $mod+d exec $menu
+bindsym            $mod+c reload
+bindsym            $mod+x exec swaymsg exit
+
+bindsym            $mod+Left focus left
+bindsym            $mod+Down focus down
+bindsym            $mod+Up focus up
+bindsym            $mod+Right focus right
+
+bindsym            $mod+Shift+Left move left
+bindsym            $mod+Shift+Down move down
+bindsym            $mod+Shift+Up move up
+bindsym            $mod+Shift+Right move right
+
+bindsym            $mod+h splith
+bindsym            $mod+v splitv
+
+bindsym            $mod+e layout toggle split
+
+bindsym            $mod+f fullscreen
+bindsym            $mod+Shift+space floating toggle
+bindsym            $mod+space focus mode_toggle
+bindsym            $mod+a focus parent
+
+bindsym            $mod+Shift+minus move scratchpad
+bindsym            $mod+minus scratchpad show
+
+mode resize {
+  bindsym          Left resize shrink width 10px
+  bindsym          Down resize grow height 10px
+  bindsym          Up resize shrink height 10px
+  bindsym          Right resize grow width 10px
+  bindsym          Return mode "default"
+  bindsym          Escape mode "default"
+}
+bindsym            $mod+r mode resize
+
+bar {
+  swaybar_command  waybar
+}
+
+include            /etc/sway/config.d/*
+
+bindsym            XF86AudioLowerVolume exec pactl set-sink-volume 0 -6%
+bindsym            XF86AudioRaiseVolume exec pactl set-sink-volume 0 +6%
+bindsym            XF86AudioMute exec pactl set-sink-mute 0 toggle
+bindsym            XF86MonBrightnessUp exec light -A 6
+bindsym            XF86MonBrightnessDown exec light -U 6
+bindsym            XF86ScreenSaver exec light -S 0
+bindsym            XF86Sleep exec systemctl suspend
+bindsym            XF86PowerOff exec systemctl poweroff
+
+bindsym            $mod+ampersand rofi-sensible-terminal
+bindsym            $mod+eacute mime.sh inode/directory
+bindsym            $mod+quotedbl mime.sh text/plain
+bindsym            $mod+apostrophe mime.sh x-scheme-handler/http
+bindsym            $mod+parenleft mime.sh x-scheme-handler/mailto
+bindsym            $mod+minus mime.sh x-scheme-handler/note
+bindsym            $mod+egrave mime.sh text/x-opml
+bindsym            $mod+underscore mime.sh x-scheme-handler/magnet
+bindsym            $mod+ccedilla mime.sh audio/ogg
+bindsym            $mod+agrave mime.sh video/ogg
+
+bindsym            $mod+Shift+eacute sudo.sh /var/http/srcs/util/mime.sh inode/directory
+
+bindsym            $mod+u musc.sh Music
+bindsym            $mod+k musc.sh 0
+bindsym            $mod+o musc.sh 1
+
+bindsym            $mod+Delete clea.sh
+bindsym            $mod+d rofi -show
+bindsym            $mod+r systemctl reboot
+
+bindsym            $mod+s xdotool.sh close
+bindsym            $mod+Down xdotool.sh size 50% 50%
+bindsym            $mod+Up xdotool.sh size 100% 100%
+bindsym            $mod+Left xdotool.sh move 0 0
+bindsym            $mod+Right xdotool.sh move $((${WIDTH}/2)) 0
