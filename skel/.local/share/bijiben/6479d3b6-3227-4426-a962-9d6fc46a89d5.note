@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note version="1" xmlns:link="http://projects.gnome.org/bijiben/link" xmlns:size="http://projects.gnome.org/bijiben/size" xmlns="http://projects.gnome.org/bijiben">
+  <title>Personal</title>
+  <text xml:space="preserve"><html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" href="Default.css" type="text/css"/><script language="javascript" src="bijiben.js"/></head><body contenteditable="true" id="editable" style="color: white;"><font color="#ffffff"><i>Personal</i></font><div>───────────────────────────────────<br/><div><div style="color: white;"><div>framasoft - gnome - builder<br/><div>samsah - st gervais - start - mgen</div></div><div>contrôle des aliments :</div><div><ul><li>patte aux oeuf<br/></li></ul></div><div>───────────────────────────────────<br/></div></div></div></div></body></html></text>
+  <last-change-date>2020-04-24T15:20:26Z</last-change-date>
+  <last-metadata-change-date>2020-04-03T20:38:40Z</last-metadata-change-date>
+  <create-date>2019-11-17T00:57:00Z</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>0</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>0</x>
+  <y>0</y>
+  <color>rgb(76,86,106)</color>
+ <tags/>
+  <open-on-startup>False</open-on-startup>
+ </note>
