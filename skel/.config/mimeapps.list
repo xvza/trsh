@@ -1,0 +1,5 @@
+[Added Associations]
+application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
+application/xml=org.gnome.gedit.desktop;
+application/x-note=org.gnome.gedit.desktop;
+audio/x-vorbis+ogg=io.github.celluloid_player.Celluloid.desktop;
