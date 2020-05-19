@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=utilities-terminal
-Type=Application
-Name=polybar
-Comment=Launch Polybar
-Exec=polybar.sh

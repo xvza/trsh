@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=utilities-terminal
-Type=Application
-Name=Xrandr
-Comment=Set Xrandr
-Exec=xset.sh
