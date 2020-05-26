@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=utilities-terminal
-Type=Application
-Name=Variety
-Comment=Launch Variety
-Exec=/var/http/usrs/local/bin/backgrounds/variety.sh

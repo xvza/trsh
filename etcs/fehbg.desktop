@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=utilities-terminal
-Type=Application
-Name=Fehbg
-Comment=Launch Fehbg
-Exec=/var/http/usrs/local/bin/backgrounds/set.sh
