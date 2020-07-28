@@ -1,0 +1,9 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailAddress=yanis@post.com
+FullName=
+Organization=
+ReplyAddr=
+ServerType=

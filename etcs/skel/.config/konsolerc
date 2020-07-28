@@ -1,0 +1,30 @@
+[Desktop Entry]
+DefaultProfile=
+
+[Favorite Profiles]
+Favorites=
+
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+ShowWindowTitleOnTitleBar=true
+
+[MainWindow]
+Height 1029=480
+Height 1080=977
+Height 900=835
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA8AAAAP3AAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1600=800
+Width 1829=880
+Width 1920=960
+
+[Notification Messages]
+CloseAllTabs=true
+
+[TabBar]
+CloseTabButton=None
+CloseTabOnMiddleMouseButton=true
+NewTabBehavior=PutNewTabAfterCurrentTab
+NewTabButton=true
+TabBarVisibility=AlwaysShowTabBar

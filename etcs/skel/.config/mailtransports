@@ -1,0 +1,43 @@
+[General]
+default-transport=923933174
+
+[Transport 1299669563]
+auth=true
+encryption=SSL
+host=smtp.mail.com
+id=1299669563
+name=mail.com
+port=465
+storepass=true
+user=yanis@usa.com
+
+[Transport 166197228]
+auth=true
+encryption=SSL
+host=smtp.mail.com
+id=166197228
+name=mail.com
+port=465
+storepass=true
+user=yanis@dr.com
+
+[Transport 246248430]
+auth=true
+authtype=1
+encryption=SSL
+host=smtp.mail.com
+id=246248430
+name=mail.com
+port=465
+storepass=true
+user=yanis@asia.com
+
+[Transport 923933174]
+auth=true
+encryption=SSL
+host=smtp.mail.com
+id=923933174
+name=mail.com
+port=465
+storepass=true
+user=yanis@post.com

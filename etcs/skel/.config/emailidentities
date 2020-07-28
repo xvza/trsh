@@ -1,0 +1,22 @@
+[General]
+Default Identity=1955458286
+
+[Identity #0]
+Attach Vcard=false
+Default Domain=silver
+Dictionary=American English (United States)
+Disable Fcc=false
+Email Address=yanis@post.com
+Email Aliases=
+Identity=Used
+Image Location=
+Inline Signature=
+Inlined Html=false
+Pgp Auto Encrypt=false
+Pgp Auto Sign=false
+Preferred Crypto Message Format=auto
+Signature Enabled=false
+Signature Type=inline
+VCardFile=/home/used/.local/share/kmail2/Used.vcf
+X-FaceEnabled=false
+uoid=1955458286

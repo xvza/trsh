@@ -1,0 +1,13 @@
+[Keyboard]
+KeyboardRepeating=0
+NumLock=2
+RepeatDelay=600
+RepeatRate=25
+
+[Libinput][1267][12328][ELAN1300:00 04F3:3028 Touchpad]
+NaturalScroll=false
+TapAndDrag=true
+TapToClick=true
+
+[Mouse]
+cursorTheme=Breeze_Snow

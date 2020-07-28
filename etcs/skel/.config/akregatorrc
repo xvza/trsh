@@ -1,0 +1,57 @@
+[$Version]
+update_info=fonts_akregator.upd:Plasma_Fonts_Akregator
+
+[Appearance]
+Fixed Font=Hack
+Sans Serif Font=Noto Sans
+Serif Font=Noto Sans
+Standard Font=Noto Sans
+
+[Archive]
+ArchiveMode=limitArticleAge
+Do Not Expire Important Articles=false
+Max Article Age=6
+Max Article Number=100
+
+[ConfigurePluginsWidget]
+splitter=268,268
+
+[General]
+ArticleListFeedHeaders=AAAA/wAAAAAAAAABAAAAAQAAAAMBAAAAAAAAAAAAAAAEAgAAAAEAAAABAAAAcgAAAhgAAAAEAQEAAAAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAEAAABGQAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAfwAAAAEAAAAAAAAAgAAAAAEAAAAAAAAD6AD/////
+ArticleListGroupHeaders=AAAA/wAAAAAAAAABAAAAAQAAAAMBAAAAAAAAAAAAAAAAAAAAAAAAAfwAAAAEAQEAAAAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAEAAAAcwAAAAEAAAAAAAAAcgAAAAEAAAAAAAAAfwAAAAEAAAAAAAAAmAAAAAEAAAAAAAAD6AD/////
+Show Tray Icon=false
+Show Unread In Taskbar=false
+SubscriptionListHeaders=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAAxAAAA1gAAAAMBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAADWAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAGQ=
+Use Interval Fetch=false
+
+[HTML Settings]
+Fonts=Noto Sans,Hack,Noto Sans,Noto Sans,Noto Sans,Noto Sans,0
+MediumFontSize=10
+
+[KFileDialog Settings]
+Recent Files[$e]=feed.xml,file:$HOME/feed.xml
+detailViewIconSize=0
+
+[MainWindow]
+Height 1080=469
+Height 900=835
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=1600
+Width 1920=1920
+Window-Maximized 1080x1920=true
+Window-Maximized 900x1600=true
+
+[Migratekde4]
+Version=1
+
+[Notification Messages]
+Disable delete feed confirmation=false
+Disable delete folder confirmation=false
+
+[View]
+Show Quick Filter=false
+Splitter 1 Sizes=218,1701
+Splitter 2 Sizes=540,1160
+View Mode=1
